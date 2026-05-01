@@ -1,6 +1,6 @@
 # UPI-Transaction-Analysis
 Analyzed 250K UPI transactions from 2024 to uncover user behavior, spending trends, peak hours, merchant category patterns, and fraud hotspots. Built 22+ SQL queries (CTEs, window functions) and a 3‑page Power BI dashboard covering Overview, Behavior, and Fraud Analysis.
----
+
 ## Project Overview
 This project analyzes 250K UPI transactions from 2024 to understand:
 User behavior across age groups, states, devices, and networks
@@ -9,7 +9,7 @@ Fraud detection insights
 Transaction performance (success, failure, peak hours, weekends)
 High‑risk states, banks, and transaction types
 The analysis was performed using SQL, and insights were visualized using a multi‑page Power BI dashboard.
---
+
 ## Dataset Structure
 The dataset contains the following fields:
 transaction_id, timestamp, transaction_type, merchant_category
@@ -18,7 +18,7 @@ sender_age_group, receiver_age_group
 sender_state, sender_bank, receiver_bank
 device_type, network_type
 hour_of_day, day_of_week, is_weekend
---
+
 ## Tech Stack
 SQL (MySQL) – Data cleaning, transformation, and analysis
 Power BI – Dashboard creation
